@@ -2,6 +2,10 @@
   "name": "clash-sub-proxy",
   "version": "1.0.0",
   "dependencies": {
-    "axios": "^1.4.0"
-  }
+    "axios": "^1.0.0"
+  },
+  "files": [
+    "data.json",
+    "api"
+  ]
 }
