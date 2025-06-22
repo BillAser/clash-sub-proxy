@@ -12,3 +12,18 @@
     "accessed": 0
   }
 }
+try {
+  data = await readData();
+} catch (err) {
+  console.error('读取data.json失败:', err);
+  res.status(500).send('服务器数据读取失败');
+  return;
+}
+try {
+  const response = await axios.get(subInfo.target);
+  res.setHeader('Content-Type', 'text/plain');
+  res.status(200).send(response.data);
+} catch (error) {
+  console.error('代理请求失败:', error);
+  res.status(500).send('# 代理请求失败');
+}
