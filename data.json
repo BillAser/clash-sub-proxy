@@ -1,0 +1,14 @@
+{
+  "abc123": {
+    "target": "https://xn--cp3a08l.com/api/v1/client/subscribe?token=681b72c6f13a9f75c0b03f1aebb5d733",
+    "expiresAt": "2025-07-20T00:00:00Z",
+    "maxAccess": 999999,
+    "accessed": 0
+  },
+  "def456": {
+    "target": "https://xn--cp3a08l.com/api/v1/client/subscribe?token=681b72c6f13a9f75c0b03f1aebb5d733",
+    "expiresAt": "2026-06-20T00:00:00Z",
+    "maxAccess": 999999,
+    "accessed": 0
+  }
+}
